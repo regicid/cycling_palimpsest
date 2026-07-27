@@ -1,4 +1,8 @@
-# Lifetime Cycling Map
+# Cycling palimpsest
+
+<p align="center">
+  <img src="map.png" alt="A lifetime of rides plotted on a single minimalist map" width="100%">
+</p>
 
 Plot everything you've ever ridden (or hiked, run, etc.) on a single, clean
 map — straight from your [Komoot](https://www.komoot.com) account.
@@ -71,8 +75,7 @@ go run . \
 ```
 
 - `--tourType tour_recorded` — only your actually-tracked tours. Use
-  `tour_planned` instead if you also want routes you only planned but never
-  rode.
+  `tour_planned` instead if you also want routes you only have as planned.
 - The `--include*InDir` flags give each folder a readable name like
   `2156208515 2025-04-12 racebike Vélo de route – Pont de Couzon`. They're
   optional but make the on-map tooltips much nicer.
