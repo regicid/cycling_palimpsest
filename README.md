@@ -4,8 +4,9 @@
   <img src="map.png" alt="A lifetime of rides plotted on a single minimalist map" width="100%">
 </p>
 
-Plot everything you've ever ridden (or hiked, run, etc.) on a single, clean
-map — straight from your [Komoot](https://www.komoot.com) account.
+Plot everything you've ever cycled on a single
+map, from your [Komoot](https://www.komoot.com) account. I'm sure it's easy to adapt to garmin connect or strava if you don't use Komoot (which you should).
+This repo has been shamelessly vibe coded, using Pi coding agent, with glm 5.2 - and a bit of Opus 4.8 in chat mode.
 
 This repo is a two-step pipeline:
 
@@ -21,7 +22,7 @@ This repo is a two-step pipeline:
 
 The result is one HTML page (see `carte.html` for an example) showing a
 lifetime of riding, with overlapping routes naturally darkening where you've
-been the most.
+been the most. It's an interactive map, so you can zoom for a more detailed view.
 
 ---
 
